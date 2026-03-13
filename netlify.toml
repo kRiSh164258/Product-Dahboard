@@ -4,3 +4,10 @@
 
 [build.environment]
   NODE_VERSION = "20"
+```
+
+---
+
+**`public/_redirects`** — inside public folder
+```
+/*    /index.html   200
