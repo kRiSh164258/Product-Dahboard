@@ -4,8 +4,3 @@
 
 [build.environment]
   NODE_VERSION = "20"
-```
-
-Also make sure `public/_redirects` file exists:
-```
-/*    /index.html   200
