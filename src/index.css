@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+/* Custom animation classes */
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.4s ease both;
+  }
+  .animate-slide-up {
+    animation: slideUp 0.4s ease both;
+  }
+  .animate-slide-in {
+    animation: slideIn 0.3s ease both;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
